@@ -31,8 +31,9 @@ ul {
 }
 li {
   text-decoration: none;
-
-
+}
+li:hover {
+  color:rgb(73, 72, 72);
 }
 .logo {
   color: #F9FAF8;
@@ -65,7 +66,7 @@ li, .sec {
   display: flex;
   flex-direction: column;
   width: 370px;
-  gap: 10px;
+  gap: 17px;
   flex-wrap:wrap
   
 }
@@ -88,8 +89,6 @@ img {
   height: auto;
   border-radius: 15px;
   margin-bottom: 16px;
-
-  
 }
 
 .deck {
@@ -181,4 +180,24 @@ img {
   align-items: center;
   justify-content: center;
   padding: 30px;
+}
+.sign-1 {
+  background-color: #222222;
+  color: #F9FAF8;
+  border-color: #F9FAF8;
+  border-style:solid;
+  border-radius: 6px;
+  padding: 4px 0;
+ 
+  font-size: 18px; 
+}
+
+.sign-1:hover {
+  color: #656565;
+  background-color: #2a2a2a;
+}
+.sign-2:hover {
+  background-color: #3167be;
+  color: #7f7e7e;
+  border-color: rgb(212, 212, 212);
 }
